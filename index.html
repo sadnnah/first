@@ -1,5 +1,20 @@
-<html><head><script src="index.js"></script><title>test</title></head>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        call=()=>{
+        let w = parseInt(document.getElementById('in').value)
+        if ( w > 15 )
+        alert("Baggage weight exceeded!!!")
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
 <body>
-    hello world
-</body></html>
+    Enter the baggage weight <br>
+    <input type="text" name="in" id="in">
+    <button type="button" onclick="call()">Submit</button>
+</body>
+</html>
